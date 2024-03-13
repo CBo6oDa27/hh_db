@@ -2,7 +2,7 @@ from createDB import check_and_create_db
 from DBmanager import DBmanager
 
 def main():
-    # Создадим базу если она еще не существует и не заполнена1
+    # Создадим базу если она еще не существует и не заполнена
     check_and_create_db()
 
     print("Выберите запрос, котороый необходимо выполнить?\n"
